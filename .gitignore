@@ -1,0 +1,43 @@
+.env
+.env.*
+!.env.example
+
+# Local virtual environments
+.venv/
+venv/
+roboflow/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Large/generated datasets and outputs
+synthetic_data/
+visualizations/
+outputs-response-smoke-fire/
+
+# Local assets / experiments
+backgrounds_agri/
+fire-images/
+fire-annotations/
+ml-practise/
+
+# Generated exports
+*.pdf
+
+# Notebook checkpoints
+.ipynb_checkpoints/
